@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TAREA-Etiquetas HTML5 ISW512">
+    <title>Ejemplo del uso de etiquetas de HTML</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f9f9f9; margin: 20px; }
+        header, footer { background-color: #333; color: white; padding: 10px; text-align: center; }
+        nav a { margin: 0 10px; color: white; text-decoration: none; }
+        section { background: white; padding: 15px; margin-top: 10px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>El Estudiente Hoy</h1>
+        <nav>
+            <a href="#contenido">Contenido</a>
+            <a href="#acerca">Acerca</a>
+            <a href="#video">Video</a>
+            <a href="#referencias">Referencias</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contenido" style="display: flex; gap: 20px; align-items: flex-start;">
+            <div style="flex: 2;">
+                <h2><pre>Técnicas de Estudio</pre>para aprovechamiento en Ingeniería de Software</h2>
+                <p>Para alguien que ya trabaja en el ámbito de las <code>Tecnologías de la Información (TI)</code>, llegar a ser desarrollador puede ser un paso natural pero desafiante. Una técnica de estudio clave en este proceso es el aprendizaje basado en proyectos. Al crear proyectos reales, aunque sean simples al inicio, se logra una mejor comprensión de los conceptos de programación y se fortalece la habilidad para resolver problemas prácticos. Esta metodología permite aplicar la teoría en contextos reales, lo cual es esencial para solidificar conocimientos.</p>
+                <p><mark>Otra técnica muy útil es el estudio espaciado</mark>, también conocido como spaced repetition. Esta estrategia consiste en distribuir el tiempo de estudio en sesiones cortas pero frecuentes, en lugar de largas jornadas ocasionales. Utilizando herramientas como tarjetas de memoria (flashcards), es posible repasar sintaxis, patrones de diseño y conceptos clave de forma constante, facilitando su retención a largo plazo. Además, esto es ideal para quienes tienen poco tiempo libre debido a compromisos laborales.</p>
+                <p>El aprendizaje colaborativo también puede ser muy beneficioso. Participar en comunidades de desarrollo como <code>GitHub, Stack Overflow o foros especializados</code> permite interactuar con otros programadores, resolver dudas, y aprender de experiencias ajenas. Contribuir a proyectos de código abierto es otra forma de aprender en un entorno real, mejorar el código a través del feedback de otros y ganar experiencia práctica que es valorada en el mercado laboral.</p>
+                <p>Por último, es recomendable complementar el estudio técnico con una rutina de revisión y autoevaluación. Dedicar tiempo cada semana para reflexionar sobre lo aprendido, revisar errores cometidos y ajustar el plan de estudio permite un progreso más consciente y eficiente. <mark>Llevar un diario de aprendizaje, mantener un portafolio actualizado y establecer metas claras puede marcar la diferencia entre estudiar por estudiar y avanzar con propósito hacia una carrera como desarrollador.</mark></p>
+            </div>
+
+            <figure style="flex: 1; text-align: right;">
+                <img src="imagenes/img1.jpg" alt="Imagen de ejemplo">
+            </figure>
+        </section>
+
+        <section id="acerca" style="display: flex; flex-direction: column; gap: 10px;">
+            <h2>Acerca de este sitio</h2><br>
+
+            <div style="display: flex; align-items: flex-start; gap: 20px;">
+                <div style="flex: 0 0 auto;">
+                    <picture>
+                        <img src="imagenes/usuario.jpg" alt="Usuario">
+                    </picture><br>
+                </div>
+
+                <div style="flex: 1;">
+                
+                    <p>Desarrollado a manera de ejemplo para entender el uso de etiquetas</p>
+                    <address>
+                        Estudiante que desarrolló este sitio: <br>
+                        <em>Francisco Javier Alpízar Rojas</em><br>                
+                        Curso: <strong>ISW-512</strong> <em>Desarrollo de aplicaciones Web</em><br>                
+                    </address>
+                </div>
+            </div>
+                       
+        </section>
+
+        <section id="video">
+            <h2>Breve video</h2>
+                <div style="text-align: center;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/IV0Cs5wlycY" 
+                        title="YouTube video" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            <form>              
+                    <svg width="130" height="130">
+                        <circle cx="80" cy="80" r="70" stroke="blue" stroke-width="8" fill="blue" />
+                        <circle cx="70" cy="70" r="60" stroke="white" stroke-width="8" fill="white" />
+                        <circle cx="60" cy="60" r="50" stroke="red" stroke-width="8" fill="red" />
+                        <circle cx="50" cy="50" r="40" stroke="blue" stroke-width="8" fill="blue" />
+                        <circle cx="40" cy="40" r="30" stroke="white" stroke-width="8" fill="white" />
+                        <circle cx="30" cy="30" r="20" stroke="red" stroke-width="8" fill="red" />
+                    </svg>
+            </form>
+        </section>
+
+        <section id="referencias">
+            <h2>Referencias</h2>
+            <ul>
+                <li><a href="https://www.hup.harvard.edu/file/feeds/PDF/9780674729018_sample.pdf">Brown, P. C., Roediger, H. L., & McDaniel, M. A. (2014). Make It Stick: The Science of Successful Learning. Harvard University Press.</a></li>
+                <li><a href="https://www.incometaxasansol.co.in/WebDoc/Book/A_mind_for_numbers,_how_to_excel_at_math_and_science_@variableTribe.pdf">Oakley, B. (2014). A Mind for Numbers: How to Excel at Math and Science (Even If You Flunked Algebra). TarcherPerigee.</a></li>
+                <li><a href="https://rupert.id.au/python/book/learn-python3-the-hard-way-nov-15-2018.pdf">Shaw, Z. A. (2013). Learn Python the Hard Way. Addison-Wesley.</a></li>
+                <li><a href="https://gaoyichao.com/Xiaotu//resource/refs/head_first_design_patterns.en.pdf">Freeman, E., & Robson, E. (2004). Head First Design Patterns. O'Reilly Media.</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p> 2025 <em>ISW-215. Desarrollo de Aplicaciones Web.</em></p>
+    </footer>
+
+</body>
+</html>
